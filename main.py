@@ -10,6 +10,8 @@ from deep_translator import GoogleTranslator
 from os import getenv
 from dotenv import load_dotenv
 
+load_dotenv()
+
 BOT_TOKEN = getenv("TOKEN")
 MY_URL = "https://www.kw.ac.kr/ko/life/notice.jsp?srCategoryId=&mode=list&searchKey=1&searchVal="
 
