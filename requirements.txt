@@ -1,0 +1,6 @@
+pytelegrambotapi
+schedule
+requests
+deep_translator
+beautifulsoup4
+python-dotenv
