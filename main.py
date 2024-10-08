@@ -11,6 +11,9 @@ from os import getenv
 from dotenv import load_dotenv
 
 load_dotenv()
+import os
+os.environ['NO_PROXY'] = 'www.kw.ac.kr'
+
 
 BOT_TOKEN = getenv("TOKEN")
 MY_URL = "https://www.kw.ac.kr/ko/life/notice.jsp?srCategoryId=&mode=list&searchKey=1&searchVal="
